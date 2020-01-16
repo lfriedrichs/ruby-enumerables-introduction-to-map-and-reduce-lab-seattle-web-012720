@@ -49,7 +49,7 @@ def reduce_to_all_true(source_array)
     end
     index +=1 
   end
-  true
+  return true
 end
 
 def reduce_to_any_true(source_array)
@@ -60,5 +60,5 @@ def reduce_to_any_true(source_array)
     end
     index +=1 
   end
-  false
+  return false
 end
