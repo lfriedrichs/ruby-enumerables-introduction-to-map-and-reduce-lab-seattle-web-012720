@@ -44,7 +44,7 @@ end
 def reduce_to_all_true(source_array)
   index = 0
   while index < source_array.size 
-    if source_array[index] == nil 
+    if source_array[index] == false 
       return false
     end
     index +=1 
@@ -55,7 +55,7 @@ end
 def reduce_to_any_true(source_array)
   index = 0
   while index < source_array.size 
-    if source_array[index] != nil 
+    if source_array[index] != false 
       return true
     end
     index +=1 
