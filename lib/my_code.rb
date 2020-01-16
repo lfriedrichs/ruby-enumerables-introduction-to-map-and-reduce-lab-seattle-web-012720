@@ -15,6 +15,7 @@ def map_to_double(source_array)
   while index < source_array.size 
     source_array[index] *= 2
     index += 1 
+  end
 end
 
 def map_to_square(source_array)
@@ -22,4 +23,5 @@ def map_to_square(source_array)
   while index < source_array.size 
     source_array[index] **= 2
     index += 1 
+  end
 end
