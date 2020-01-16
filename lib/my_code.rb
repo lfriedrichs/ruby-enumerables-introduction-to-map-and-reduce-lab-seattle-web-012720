@@ -40,3 +40,12 @@ def reduce_to_total(source_array, starting_point)
   end
   running_total
 end
+
+def reduce_to_all_true(source_array)
+  running_total = 0
+  while starting_point < source_array.size 
+    running total += source_array[starting_point]
+    starting_point +=1 
+  end
+  running_total
+end
